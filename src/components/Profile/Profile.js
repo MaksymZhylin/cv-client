@@ -8,7 +8,7 @@ import resumeData from '../../utils/resumeData';
 import CustomButton from '../Buttons/Buttons';
 
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import './Profile.css';
+import './Profile.scss';
 
 const CustomTimelineItem = ({ title, text, link }) => {
   return (
@@ -43,7 +43,7 @@ const Profile = () => {
 
       <figure className='profile_image'>
         <LazyLoadImage
-          src={require('../../assets/images/displayImage.jpg').default}
+          src={require('../../assets/images/displayImage.png').default}
           alt=''
           effect='blur'
         />

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Button } from '@material-ui/core';
 
-import './Buttons.css';
+import './Buttons.scss';
 import { AppContext } from '../../AppContext';
 
 const CustomButtons = ({ text, icon }) => {

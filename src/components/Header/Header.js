@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import HomeIcon from '@mui/icons-material/Home';
 import { Link } from 'react-router-dom';
 
-import './Header.css';
+import './Header.scss';
 
 const pages = [
   { id: 1, title: 'Resume', url: '/resume' },

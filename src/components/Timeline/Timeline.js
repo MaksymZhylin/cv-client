@@ -6,7 +6,7 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 
-import './Timeline.css';
+import './Timeline.scss';
 import { Typography } from '@mui/material';
 
 const CustomTimeline = ({ title, icon, children }) => {

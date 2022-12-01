@@ -17,18 +17,6 @@
   margin: 0px 0px 20px 20px;
 }
 
-@media (max-width: 960px) {
-  .header {
-    margin: 20px 0px 20px 0px;
-  }
-}
-
-@media (max-width: 600px) {
-  .header_home_icon {
-    margin-left: 8px;
-  }
-}
-
 .header_home_icon {
   background-color: var(--main-color) !important;
   padding: 24px !important;
@@ -41,4 +29,17 @@
 
 .box_menu_corrections {
   justify-content: flex-end;
+}
+
+
+@media (max-width: 960px) {
+  .header {
+    margin: 20px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header_home_icon {
+    margin-left: 8px;
+  }
 }

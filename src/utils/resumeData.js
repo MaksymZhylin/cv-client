@@ -41,7 +41,7 @@ export default {
   experiens: [
     {
       title: 'Freelance',
-      date: '2020-2021',
+      date: '2020-...',
       description:
         'Did small tasks on Upwork and also helped friends with their projects.',
     },

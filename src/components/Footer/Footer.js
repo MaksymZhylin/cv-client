@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Toolbar from '@mui/material/Toolbar';
 import Box from '@mui/material/Box';
 
-import './Footer.css';
+import './Footer.scss';
 import resumeDate from '../../utils/resumeData';
 
 const Footer = () => {

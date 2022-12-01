@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography } from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
 
-import './ConInfo.css';
+import './ConInfo.scss';
 
 const ContInfo = () => {
   return (
