@@ -1,0 +1,76 @@
+:root {
+  --main-color: #ffc500;
+}
+
+.top {
+  margin-top: 20px;
+}
+
+.conteiner_shadow {
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  -webkit-box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  -moz-box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.content {
+  color: black !important;
+  background-color: white !important;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin: 0px 0px 20px 20px;
+}
+
+@media (max-width: 960px) {
+  .content {
+    margin: 20px 0px 20px 0px;
+  }
+}
+
+.section_title {
+  position: relative;
+  display: inline-block;
+  padding: 0 3px;
+  margin-bottom: 20px !important;
+}
+
+.section_title .section_title_text {
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+}
+
+.section_title .section_text {
+  color: grey;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+}
+
+
+.section_title span {
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0.4;
+  left: 0;
+  background-color: var(--main-color);
+}
+
+.content_position {
+  padding-bottom: 20px !important;
+}
+
+.gray {
+  background-color: #00000005;
+}
+
+.MuiGrid-container {
+  justify-content: center;
+}

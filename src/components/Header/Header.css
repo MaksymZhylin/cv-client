@@ -1,0 +1,44 @@
+.link {
+  text-decoration: none !important;
+  color: black;
+  max-height: 72px;
+  max-width: 72px;
+}
+
+.menu_button {
+  padding: 23px !important;
+}
+
+.header {
+  background-color: white !important;
+  position: sticky !important;
+  top: 0;
+  border-radius: 6px;
+  margin: 0px 0px 20px 20px;
+}
+
+@media (max-width: 960px) {
+  .header {
+    margin: 20px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header_home_icon {
+    margin-left: 8px;
+  }
+}
+
+.header_home_icon {
+  background-color: var(--main-color) !important;
+  padding: 24px !important;
+  border-radius: 6px 0 0 6px;
+}
+
+.toolbar_menu_corrections {
+  margin-left: -24px;
+}
+
+.box_menu_corrections {
+  justify-content: flex-end;
+}
